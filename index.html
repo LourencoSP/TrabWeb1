@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho 01 - Lourenço Silva Pinto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Trabalho 01 - HTML/CSS/JavaScript</h1>
+
+  <!-- Exercício 1 -->
+  <section>
+    <h2>Exercício 01: Alterar Cor de Fundo</h2>
+    <button onclick="changeBackgroundColor()">Mudar Cor de Fundo</button>
+  </section>
+
+  <!-- Exercício 2 -->
+  <section>
+    <h2>Exercício 02: Lista Interativa</h2>
+    <input type="text" id="list-input" placeholder="Digite um item">
+    <button onclick="addToList()">Adicionar à Lista</button>
+    <ul id="item-list"></ul>
+  </section>
+
+  <!-- Exercício 3 -->
+  <section>
+    <h2>Exercício 03: Mostrar ou Ocultar Texto</h2>
+    <button onclick="toggleText()" id="toggle-btn">Mostrar</button>
+    <p id="toggle-text" class="hidden">Este é o texto que pode ser exibido ou ocultado.</p>
+  </section>
+
+  <!-- Exercício 4 -->
+  <section>
+    <h2>Exercício 04: Mudar Cor de Texto ao Passar o Mouse</h2>
+    <p id="hover-text">Passe o mouse sobre este texto.</p>
+  </section>
+
+  <!-- Exercício 5 -->
+  <section>
+    <h2>Exercício 05: Contador de Cliques</h2>
+    <button onclick="incrementCounter()">Clique Aqui</button>
+    <p>Contador: <span id="click-counter">0</span></p>
+  </section>
+
+  <!-- Exercício 6 -->
+  <section>
+    <h2>Exercício 06: Luzes que Acendem e Apagam</h2>
+    <div id="lamp"></div>
+    <button onclick="toggleLamp()">Ligar/Desligar</button>
+  </section>
+
+  <footer>
+    <p>Nome: Lourenço Silva Pinto</p>
+    <p>Matrícula: 0080006</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
